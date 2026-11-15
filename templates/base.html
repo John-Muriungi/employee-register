@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+    />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"  
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Employee Register</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-md-10 offset-md-1 mt-5">
+        <div class="p-5 mb-4 bg-light rounded-3 border">
+          <h1 class="display-4">Employee Register</h1>
+          <p class="lead fst-italic">
+            Python Django project for implementing CRUD operations
+          </p>
+          <hr class="my-4" />
+          {% block content %} {% endblock content %}
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
